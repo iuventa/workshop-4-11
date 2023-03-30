@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #eecdff; */
+    background-image: url(../img/luca.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+header{
+    padding: 30px;
+    background-color: #eecdff;
+    box-shadow: 1px 0 2px #350042;
+    height: 130px;
+}
+
+header h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -99999px;
+    float: left;
+    margin-right: 350px;
+}
+header h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+header nav{
+    margin-top: 30px;
+}
+header ul a{
+    color: #350042;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+header ul li{
+    float: left;
+}
+.mart{
+    width: 300px;
+    height: 200px;
+    background-color: #8400a5;
+    margin: 50px;
+}
+.mart2{
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    /* background-color: rgba(0, 4, 121, 0.5); */
+    padding: 20px;
+    /* display: block; */
+}
+.mart2 p{
+    font-size: 38px;
+}
+.music{
+    width: 600px;
+    height: 400px;
+    background-color: #dfadf8;
+    margin: 100px auto;
+    background-image: url(../img/sound.webp);
+    background-size: 25%;
+    background-repeat: repeat-x;
+    background-position: center;
+    padding: 50px;
+}
+.music p{
+    font-size: 12px;
+    text-align: justify;
+    text-indent: 50px;
+}
+.music p a{
+    display: block;
+}
+.slider{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg{
+    width: 400px;
+    height: 300px;
+    background-color: #dfadf8;
+    padding: 50px;
+    margin: 70px auto;
+    background-image: url(../img/luca.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    box-shadow: 0 0 20px #00c82f;
+}
+.bg p{
+    text-align: justify;
+}
+
+.mshobeli{
+    width: 800px;
+    padding: 50px;
+
+    margin: 70px auto;
+    background-color: #fbfbfb;
+}
+.mshobeli a{
+    color: #00c82f;
+}
+
+.mshobeli h2 a{
+    color: #350042;
+}
+
+.lucamovies{
+    width: 50%;
+    margin: 50px auto;
+}
+.lucamovies ul li{
+    float: left;
+    margin-right: 50px;
+}
+.lucamovies ul li a{
+   padding: 5px 10px;
+   background-color: #8400a5;
+   color: #eecdff;
+}
+.lucamovies ul li:nth-child(2) a{
+    background-color: #0068a5;
+}
+
+.lucamovies ul li:nth-child(4) a{
+    background-color: #00c82f;
+}
+
+.lucamovies ul li:last-child a{
+    border-bottom: 2px solid #fbfbfb;
+}
+
+.lucamovies ul li:first-child a{
+    border-radius: 20px;
+}
+
+
+footer{
+    clear: both;
+    padding: 50px;
+}
